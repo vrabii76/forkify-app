@@ -125,7 +125,7 @@ const controlAddRecipe = async function (newRecipe) {
 };
 
 const newFeature = function () {
-  console.log('Welcome to the Application!');
+  console.log('Welcome to the Forkify Application! ');
 };
 
 const init = function () {
