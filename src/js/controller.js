@@ -18,10 +18,6 @@ const recipeContainer = document.querySelector('.recipe');
 
 ///////////////////////////////////////
 
-// if (module.hot) {
-//   module.hot.accept();
-// }
-
 const controlRecipes = async function () {
   try {
     const id = window.location.hash.slice(1);
@@ -57,7 +53,6 @@ const controlSearchResults = async function () {
     await model.loadSearchResults(query);
 
     // 3) render results
-    // resultsView.render(model.state.search.results);
     resultsView.render(model.getSearchResultsPage());
 
     // 4) render initial pagination buttons
@@ -69,7 +64,6 @@ const controlSearchResults = async function () {
 
 const controlPagination = function (goToPage) {
   // 1) render NEW results
-  // resultsView.render(model.state.search.results);
   resultsView.render(model.getSearchResultsPage(goToPage));
 
   // 2) render NEW pagination buttons
