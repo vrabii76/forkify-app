@@ -43,4 +43,4 @@ Forkify is a modern recipe application that allows users to search for recipes, 
 - src/sass: Contains Sass files for styling the application.
 - public: Contains static assets like images and the HTML file.
 
-Have fun!
+Have fun!!
